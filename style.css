@@ -1,0 +1,276 @@
+header{
+  display: block;
+  width: 1600px;
+  height: 628px;
+  background-image: url("img/header-img.png");
+  background-color: rgba(47, 128, 237, 0.5);
+  position: relative;
+}
+
+.attractie, .attractie2{
+ width: 209px;
+ height: 50px;
+ padding-top: 15px;
+ padding-left: 215px;
+ font-family: "Montserrat";
+ font-style: medium;
+ font-size: 21px;
+ height: 26px;
+ color: white;
+
+}
+.slogan{
+ width: 800px;
+ height: 110px;
+ position: absolute;
+ padding-top: 120px; 
+ padding-left: 215px;
+ font-family: "Open Sans";
+ font-size: 44px;
+ color: white;
+}
+.fb-icon{
+margin: -25px;
+padding-left: 1321px;
+}
+.tw-icon{
+ margin: -25px;
+ padding-left: 1361px;
+ }
+ .button1, .button2{
+   width:282px;
+   height: 68px;
+   font-family: "Open Sans";
+   font-style: regular;
+   font-size: 18px;
+   color: #2F80ED;
+   background-color: white;
+   border-radius: 157px;
+ }
+
+ .button1{
+  margin-top: 384px;
+  margin-left: 218px;
+ }
+ main{
+  width: 1600px;
+  height: 592px; 
+  padding-left: 218px;
+ }
+
+ .second-slogan{
+   width: 1070px;
+   height: 126px;
+   margin-top: 80px;
+   margin-bottom: -50px;
+   font-family: "Open Sans";
+   font-size: 44px;
+ }
+
+.conz-img, .pizza-img, .shop-img{
+  margin-top: 150px;
+} 
+
+.conz-text, .pizza-text, .shop-text{
+  width: 357px;
+  height: 86px;
+  font-size: 18px;
+  font-family: "Open Sans";
+  color: #333333;
+}
+
+.container1, .container2, .container3{
+  float: left;
+}
+
+.container2{
+  margin-left: 41px;
+  margin-right: 41px;
+}
+
+footer{
+  width: 1600px ;
+  height: 1030px;
+  background: linear-gradient(to right, #2F80ED 0%, #17345C 98.9%)
+}
+
+.footer-text{
+  width: 600px;
+  height: 424px;
+  font-size: 20px;
+  font-family: "Open Sans";
+  color: white;
+  padding-top: 133px;
+  
+}
+.border-div{
+  width: 1170px;
+  height: 710px;
+  margin: 0 215px;
+  border-bottom: solid 1px rgba(255, 255, 255, 0.2);
+  
+}
+
+.dialog{
+  width: 350px;
+  height: 550px;
+  /*background-color: #937F7F;*/
+  float: right;
+  position: relative;
+  margin-top: -480px;
+}
+
+.circle{
+  width: 30px;
+  height: 30px;
+  background-color: white;
+  border-radius: 50px;
+  margin-top: 110px;
+  text-align: center;
+  border: none;
+}
+.dialog > a{
+  width: 270px;
+  height: 173px;
+}
+
+.dial{
+  width: 145px;
+  height: 50px; 
+  border-radius: 40px;
+  background-color: rgba(0, 0, 0, 0.25);
+  font-size: 14px;
+  float: right;
+  color: white;
+  border: none;
+  margin-top: 12px;
+}
+.circle2{
+  width: 30px;
+  height: 30px;
+  background-color: white;
+  border-radius: 50px;
+  margin-top: 168px;
+  text-align: center;
+  float: left;
+  margin-right: 5px;
+  border: none;
+}
+.sheet{
+  width: 243px;
+  height: 100px;
+  background-color: white;
+  border-radius: 15px 15px 15px 3px;
+  float: left;
+  padding: 10px;
+  margin-top: 15px;
+  font-size: 14px;
+  font-family: "Open Sans";
+  color: #333333;
+}
+.dial2{
+ width: 50px;
+ height: 20px;
+ background-color: #E0E0E0;
+ border-radius: 40px;
+ float: right;
+ margin-top: 50px;
+ margin-right: -15px;
+ border: none;
+}
+
+.dot1, .dot2, .dot3{
+  width: 6px;
+  height: 6px;
+  border-radius: 50px;
+  margin-top: 7px;  
+}
+.dot1{
+  background-color: rgba(0, 0, 0, 0.5);
+  margin-left: 9px;
+}
+.dot2{
+  background-color: rgba(0, 0, 0, 0.3);
+  margin-left: 10px;
+}
+.dot2{
+  background-color: rgba(0, 0, 0, 0.1);
+  margin-left: 14px;
+}
+
+.profpic{
+  width: 30px;
+  height: 30px;
+  position: relative;
+  float: right;
+  margin-top: 160px;
+}
+
+.shopicon{
+  width: 60px;
+  height: 60px;
+  background-color: white;
+  border-radius: 50px;
+  float: left;
+  clear: both;
+  margin-top: 30px; 
+  margin-right: 85px;
+}
+
+.shopicon img, .nightlife img, .food img{
+  padding: 12px;
+}
+
+.shopicon p, .nightlife p, .food p{
+  font-family: "Open Sans";
+  color: white;
+  font-size: 18px;
+  margin-left: -10px;
+  text-align: center;
+}
+
+.nightlife, .food{
+  float: left;
+  width: 60px;
+  height: 60px;
+  background-color: white;
+  border-radius: 50px;
+  margin-top: 30px;
+}
+
+.food{
+  margin-left: 85px;
+}
+
+.attractie2{
+  padding-top: 30px;
+}
+
+.social, .navigation{
+  width: 200px;
+  height: 25px;
+  font-family: "Open Sans";
+  font-size: 18px;
+  color: rgba(255, 255, 255, 0.7);
+  float: right;
+  margin-top: -20px;
+  text-align: right;
+}
+
+.navigation{
+  margin-right: 215px;
+}
+
+.social h4, .navigation h4{
+color: #FFFFFF;
+}
+.copyright{
+  width: 240px;
+  height: 25px;
+  font-family: "Open Sans";
+  font-size: 18px;
+  color: rgba(255, 255, 255, 0.7);
+  float: left;
+  margin-top: 180px;
+  margin-left: 215px;
+}
